@@ -27,6 +27,43 @@ let bigNum = 5454984654864654684846544654846846448486464468468444864894984684849
 console.log(bigNum);
 console.log(typeof bigNum); 
 
+/** String  */
+let str = "Manoj"
+console.log(str);
+console.log(typeof str);
+
+/**Boolean true or false */
+let value  = true;
+let value1 = false;
+
+console.log(typeof value);
+console.log(typeof value1);
+
+/**Undefined */
+let v;
+console.log(v);
+console.log(typeof v);
+
+/** null */
+/** null is a primitive value, means variable is filled with a value
+ * undefined means yet to be filled
+ * null is primitive value but its type is object, non primitive
+ * this is a bug continued to keep backward compatibility
+ */
+let n = null;
+console.log(n);
+console.log(typeof n);
+
+/** object */
+let person = {
+    name : "manoj",
+    age : 29
+};
+
+console.log(person);
+console.log(typeof person);
+
+
 
 
 
