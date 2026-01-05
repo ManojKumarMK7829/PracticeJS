@@ -27,7 +27,7 @@ console.log(typeof percentString1);
  * 
  * let percentage2 = "35a"
  * If string carrying some caharacter along 
- * the output will be NaN - Not a Number
+ * the output will be "NaN" - Not a Number
  * It will get converted to number but based on output need to be decided 
  */
 
@@ -54,7 +54,7 @@ console.log(typeof numOfUndfnd);
 /**
  *  let undfnd; 
  *  if we are converting undefined variable to number. it will get converted.
- *  the type will be number but the value will be NaN - Not a Number
+ *  the type will be number but the value will be "NaN" - Not a Number
  */
 
 let nullV = null
@@ -82,7 +82,7 @@ let strUndfd = String(undfnd)
 console.log("The value of undefined is " + strUndfd + " type of undefined is " + strUndfd);
 
 let strNull = String(nullV)
-console.log("The strNull is " + strNull + " type is " + strNull);
+console.log("The strNull is " + strNull + " type is " +  typeof strNull);
 /**
  * Calling String(value) only converts the value, NOT the variable.
  * If you don’t reassign, the variable keeps its original type.
@@ -116,18 +116,3 @@ console.log("The boolValue is " + boolValue + " type of boolValue is " + typeof 
  * 
  *  7 falsy values - false, 0, "", NaN, null, undefined, 0n always return false
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
