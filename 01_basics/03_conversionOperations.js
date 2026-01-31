@@ -114,5 +114,5 @@ console.log("The boolValue is " + boolValue + " type of boolValue is " + typeof 
  * let a = "" - The boolValue is false type of boolValue is boolean
  * let a = null - null has value 0 - The boolValue is false type of boolValue is boolean
  * 
- *  7 falsy values - false, 0, "", NaN, null, undefined, 0n always return false
+ *  7 falsy values - false, 0, "", NaN, null, undefined, 0n always return false 
  */
