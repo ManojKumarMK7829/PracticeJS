@@ -102,3 +102,8 @@ function sum(...numbers) {
 }
 console.log(sum(1, 2, 3)); // Output: 6
 console.log("Rest operator is used to collect multiple elements into an array.");
+
+/**-----------------In Operations------------------ */
+let obj = { name: "Alice", age: 30 };
+console.log("name" in obj); // Output: true
+console.log("In verifies the key exist within the object or not, it will return true if key exist otherwise false");
