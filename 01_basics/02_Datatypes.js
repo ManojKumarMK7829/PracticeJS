@@ -7,14 +7,14 @@
  * JavaScript has 8 data types (7 primitive + 1 non-primitive).
  * 
  * Primitive -> number, bigInt, String, Boolean, Undefined, null, Symbol
- * Non Primitive -> Object
+ * Non Primitive -> Object, Array, Function, RegExp etc
  */
 
 /**
  * alert(3+3) this will not work because we are using node not browser
  */
 
-/** number */
+/* number */
 let age = 28
 let marks = 85.36
 
@@ -64,7 +64,6 @@ console.log(person);
 console.log(typeof person);
 
 
-
-
-
-
+/* String is primitive, but js refer to wrapper object for string methods */
+let str1 = "Hello, World!".toUpperCase();
+console.log(str1 + " " + typeof str1);

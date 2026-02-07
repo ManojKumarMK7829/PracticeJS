@@ -31,7 +31,7 @@ console.log(typeof percentString1);
  * It will get converted to number but based on output need to be decided 
  */
 
-let isF = false
+let isF = false 
 let numOfIsF = Number(isF)
 let isT = true
 let numOfIsT = Number(isT)
