@@ -43,6 +43,7 @@ console.log(typeof numOfIsT);
 /**
  * let isF = false & let isT = true
  * if boolean is converted to number only 0 & 1 can be seen
+ * numOfIsF is 0 and numOfIsT is 1
  */
 
 let undfnd;
@@ -66,7 +67,7 @@ console.log(typeof numOfNull);
 /**
  *  let nullV = null 
  *  if we are converting the null value to number
- *  it get converted to number and number is 0
+ *  it get converted to number and "number is 0"
  */
 
 /** Convert other to string */
@@ -90,6 +91,8 @@ console.log("The strNull is " + strNull + " type is " +  typeof strNull);
  * 
  * this is same with null also
  * 
+ * Only when string converts undefined the type remains as a undefined
+ * when number converts undefined the type converts to nuber and Nan as a value
  */
 
 /** Boolean */
