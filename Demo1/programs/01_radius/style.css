@@ -1,0 +1,25 @@
+#radiusOfCircle {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+#radiusInput {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#calculateBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#result {
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+}
