@@ -1,0 +1,26 @@
+#counterNumber {
+    display: block;
+    font-size: 10em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    background-color: #007BFF;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
